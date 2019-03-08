@@ -1,14 +1,16 @@
 from setuptools import setup
 
 setup(
-    name='PingdomLib',
-    version='2.0.3',
-    author='Kenneth Wilke',
-    author_email='kenneth.wilke@rackspace.com',
+    name='PingdomLib3',
+    version='3.0.0',
+    author='Mario Mann',
+    author_email='dedi-extern@novatec-gmbh.de',
     packages=['pingdomlib'],
-    url='https://github.com/KennethWilke/PingdomLib',
+    url='https://github.com/NovaTec-APM/PingdomLib',
     license='ISC license',
-    classifiers=['Development Status :: 5 - Production/Stable',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'License :: OSI Approved :: ISC License (ISCL)',
